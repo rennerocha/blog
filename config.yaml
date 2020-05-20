@@ -1,0 +1,66 @@
+baseurl: "https://rennerocha.com/"
+languageCode: "pt-br"
+title: "Renne Rocha"
+theme: "hugo-tania"
+paginate: 6
+
+params:
+  author: "Renne Rocha"
+
+  siteName: "Hugo Tania is Amazing"
+  siteDesc: "Hugo is Absurdly Fast!"
+
+
+  colorScheme:
+    toggle: true
+    default: auto
+
+  # Limit how many categories filter show above search input.
+  # Default to 5
+  maxCategoryToShow: 10
+
+  # Show your socail information with icon on index bio with `_index.md` content.
+  socialOptions:
+    email: "renne@rocha.dev.br"
+    github: "https://github.com/rennerocha"
+    twitter: "https://twitter.com/rennerocha"
+
+  # Comments settings
+  comments:
+    enabled: true
+    provider: giscus
+
+    giscus:
+      repo: WingLim/hugo-tania
+      id: MDEwOlJlcG9zaXRvcnkzMTYyNjQzMDc=
+      category:
+        name: Comments
+        id: DIC_kwDOEtnPc84B_WKP
+
+menu:
+  header:
+    - name: Articles
+      url: "/articles/"
+  footer:
+    - name: RSS
+      url: "/index.xml"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: "monokai"
+    tabWidth: 4
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]

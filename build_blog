@@ -1,0 +1,1 @@
+rm -rf public && hugo && rsync -av --delete public/* renne@personal:/home/renne/blog/content

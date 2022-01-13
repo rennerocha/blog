@@ -3,6 +3,7 @@ languageCode: "pt-br"
 title: "Renne Rocha"
 theme: "hugo-tania"
 paginate: 6
+googleAnalytics: "UA-22087729-1"
 
 params:
   author: "Renne Rocha"
@@ -27,7 +28,7 @@ params:
 
   # Comments settings
   comments:
-    enabled: true
+    enabled: false
     provider: giscus
 
     giscus:

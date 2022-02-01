@@ -25,6 +25,7 @@ params:
     email: "renne@rocha.dev.br"
     github: "https://github.com/rennerocha"
     twitter: "https://twitter.com/rennerocha"
+    mastodon: "https://chaos.social/@rennerocha"
 
   # Comments settings
   comments:

@@ -20,8 +20,9 @@ params:
   # Default to 5
   maxCategoryToShow: 10
 
-  # Show your socail information with icon on index bio with `_index.md` content.
+  # Show your social information with icon on index bio with `_index.md` content.
   socialOptions:
+    rss: "/index.xml"
     email: "renne@rocha.dev.br"
     github: "https://github.com/rennerocha"
     twitter: "https://twitter.com/rennerocha"

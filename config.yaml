@@ -24,7 +24,7 @@ params:
   socialOptions:
     rss: "/index.xml"
     email: "renne@rocha.dev.br"
-    github: "https://github.com/rennerocha"
+    github: "https://github.com/sponsors/rennerocha"
     twitter: "https://twitter.com/rennerocha"
     mastodon: "https://chaos.social/@rennerocha"
     peertube: "https://peertube.lhc.net.br/a/rocha/video-channels"

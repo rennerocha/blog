@@ -12,6 +12,11 @@ and permissions, methods for handling passwords securely are part of this system
 
 Generally, this is adequate for most projects; however, there are situations where it becomes necessary to modify the behavior of a **User** or alter how their data is stored in the database. It should be noted that modifying the authorization and/or authentication process of a **User** will not be covered in this post.
 
+For the people that prefers video content you can also watch me explaining
+the content of this post in the following video (**but in Portuguese**):
+
+{{< peertube "https://peertube.lhc.net.br/videos/embed/20a424c4-2dcc-422a-be77-5f8a1fced27c" >}}
+
 # Extending with an extra Model
 
 The simplest way to extend your **User** is to create a new model with a

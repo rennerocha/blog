@@ -2,6 +2,7 @@
 title: "Sobre perguntas muito vagas em grupos de discussão"
 publishdate: 2022-11-11
 tags: ["perguntas"]
+slug: sobre-perguntas-muito-vagas
 ---
 
 Eu acompanho diversos grupos de tecnologia por email (hoje nem tanto),

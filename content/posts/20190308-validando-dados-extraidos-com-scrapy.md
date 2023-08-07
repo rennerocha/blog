@@ -2,6 +2,7 @@
 title: "Validando dados extraídos com Scrapy"
 publishdate: 2019-03-08
 tags: ["scrapy", "scraping", "monitoramento"]
+slug: validando-dados-extraidos-com-scrapy
 ---
 
 Como você garante a qualidade e a confiabilidade dos dados que você está

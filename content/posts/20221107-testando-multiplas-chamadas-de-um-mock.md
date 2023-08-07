@@ -2,6 +2,7 @@
 title: "Testando múltiplas chamadas de uma função com mocks"
 publishdate: 2022-11-07
 tags: ["python", "testes", "pytest"]
+slug: testando-multiplas-chamadas-de-um-mock
 ---
 
 Em algumas situações durante o teste e alguma função, queremos confirmar

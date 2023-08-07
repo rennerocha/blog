@@ -2,7 +2,7 @@
 title: "Extending built-in Django User with a Profile Model"
 date: 2023-04-24T19:28:40-03:00
 tags: ["django", "user", "python"]
-draft: false
+slug: extending-django-user-profile-model
 ---
 
 The [user authentication](https://docs.djangoproject.com/en/4.2/topics/auth/#user-authentication-in-django) system provided by Django is extremely powerful

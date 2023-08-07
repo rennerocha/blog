@@ -2,6 +2,7 @@
 title: "Monitorando seus projetos de raspagem de dados"
 publishdate: 2022-01-13
 tags: ["monitoramento", "scrapy", "raspagem de dados", "python", "spidermon"]
+slug: monitorando-seus-projetos-de-raspagem-de-dados
 ---
 
 Quando passamos a extrair dados de uma página com regularidade, com

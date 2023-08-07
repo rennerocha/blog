@@ -7,10 +7,8 @@ googleAnalytics: "UA-22087729-1"
 
 params:
   author: "Renne Rocha"
-
-  siteName: "Hugo Tania is Amazing"
-  siteDesc: "Hugo is Absurdly Fast!"
-
+  siteName: "Sharing what I learn about software development mainly"
+  siteDesc: "Sharing what I learn about software development mainly"
 
   colorScheme:
     toggle: true
@@ -43,7 +41,7 @@ params:
 
 menu:
   header:
-    - name: Postagens
+    - name: Articles
       url: "/articles/"
   footer:
     - name: RSS

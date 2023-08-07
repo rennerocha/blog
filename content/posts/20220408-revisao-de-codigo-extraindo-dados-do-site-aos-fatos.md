@@ -2,6 +2,7 @@
 title: "Revisão de Código: Extraindo dados do site 'Aos Fatos'"
 publishdate: 2022-04-08
 tags: ["revisão de código", "scrapy", "raspagem de dados", "python", "live"]
+slug: revisao-de-codigo-extraindo-dados-do-site-aos-fatos
 ---
 
 Algumas semanas atrás, fiz a revisão de um código para extrair informações de

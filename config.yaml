@@ -3,7 +3,6 @@ languageCode: "pt-br"
 title: "Renne Rocha"
 theme: "hugo-tania"
 paginate: 6
-googleAnalytics: "UA-22087729-1"
 
 params:
   author: "Renne Rocha"
@@ -14,8 +13,6 @@ params:
     toggle: true
     default: auto
 
-  # Limit how many categories filter show above search input.
-  # Default to 5
   maxCategoryToShow: 10
 
   # Show your social information with icon on index bio with `_index.md` content.
@@ -30,13 +27,6 @@ params:
   comments:
     enabled: false
     provider: giscus
-
-    giscus:
-      repo: WingLim/hugo-tania
-      id: Iv1.85981d64f37d8b52
-      category:
-        name: Comments
-        id: DIC_kwDOEtnPc84B_WKP
 
 menu:
   header:

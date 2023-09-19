@@ -30,6 +30,8 @@ params:
 
 menu:
   header:
+    - name: About Me
+      url: "/about-me/"
     - name: Articles
       url: "/articles/"
   footer:

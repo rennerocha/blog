@@ -17,6 +17,8 @@ I am the maintainer of the following open source projects:
 
 - [Spidermon](https://github.com/scrapinghub/spidermon/) is a extension that helps to monitor the execution of web crawlers developed with [Scrapy](https.scrapy.org) framework.
 
+- [Joker](https://github.com/lhc/lhc-telegram-bot) is a **Telegram Bot** developed to run in [my hackerspace](https://lhc.net.br/) [Telegram channel](https://t.me/lhc_campinas). It provides a set of useful (or just funny) commands for calendar, finance reporting, [pizza math](https://github.com/lhc/lhc-telegram-bot/blob/main/src/joker/commands/pizza.py) and others.
+
 - [DojoPuzzles](https://dojopuzzles.com) is a page that helps participants of [Coding Dojo](https://codingdojo.org/practices/WhatIsCodingDojo/) sessions to choose a suitable problem to be solved. I created this project many years ago, when I organized these sessions. There are not many updates since them, but it is still very used in Brazilian community.
 
 ## Contact

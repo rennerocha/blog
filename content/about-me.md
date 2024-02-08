@@ -9,6 +9,8 @@ I am also the co-founder of [Laboratório Hacker de Campinas](https://lhc.net.br
 
 In my free time I enjoy homebrewing ([eventually I blog about that](https://receitasdecerveja.com.br)) and woodworking (when I am able to spend an entire day at the hackerspace).
 
+Sometimes I publish some videos in my [Peertube account](https://peertube.lhc.net.br/a/rocha/video-channels) about software development in general.
+
 ## Projects
 
 I am the maintainer of the following open source projects:

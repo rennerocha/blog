@@ -1,7 +1,7 @@
 ---
 title: "Following links declaratively with Scrapy"
 date: 2025-02-12
-tags: ["web scraping", "scrapy", "playwright"]
+tags: ["web scraping", "scrapy"]
 slug: following-links-declaratively-with-scrapy
 ---
 

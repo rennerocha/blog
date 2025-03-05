@@ -15,6 +15,8 @@ I was always looking for some kind of open source and (possibly) self-hosted sol
 
 To deploy it, I decided to use [fly.io](https://fly.io), a Platform-as-a-Service (PaaS) company that with one `Dockerfile` and a few configuration files I was able to quickly deploy [Gancio](https://gancio.org/) there. They require a credit card to create an account, but if your application doesn't use much CPU|memory|network|storage (which is our case with our calendar), it is very likely that you will never reach the minimum threshold to start paying. So it will be basically free to host it.
 
+**UPDATE (2025-03-04): fly.io did some changes in how they charge their users since this post was written (and to be honest, I still didn't completely understand how it works), so perhaps following the steps that I shared here will not be totally free as before. But due to the ease of configuration and maintenance, I still believe it is a low-cost alternative to be considered.**
+
 **Disclaimer** I am not being sponsored by [fly.io](https://fly.io). It is just a service that worked well for my needs.
 
 ![My hackerspace Gancio page](gancio-lhc.png)

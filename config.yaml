@@ -2,7 +2,8 @@ baseurl: "https://rennerocha.com/"
 languageCode: "pt-br"
 title: "Renne Rocha"
 theme: "hugo-tania"
-paginate: 6
+pagination:
+  pagerSize: 6
 
 params:
   author: "Renne Rocha"

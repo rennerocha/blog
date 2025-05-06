@@ -1,6 +1,7 @@
 ---
 title: "Creating backups for fly.io Volumes"
 date: 2025-04-30
+lastmod: 2025-05-06
 tags: ["self-host", "fly.io", "backup"]
 slug: creating-backups-for-fly-io-volumes
 ---
@@ -62,40 +63,28 @@ The volume is mounted in `/data` directory, defined in our application `fly.toml
 
 ## Creating a backup script
 
-With the token, we can now create two scripts: one to run locally on the machine that will receive the backup data,
-and another to be executed remotely on your Fly Machine. The example scripts are very simple, but you can improve
-them by adding more capabilities, error handling, uploading the data to S3 buckets, and so on.
+Given that we have a token, we are now able to execute SSH commands remotely on our Fly Machine. In
+our scenario, I am compacting the whole content of `/data/` directory (where all the data that I want
+to backup is located) generating a tarball, then I download it locally.
+
+I could create a custom script and copy it to the remote machine if I want to perform more complex
+tasks, or you can extend/modify this script to perform other tasks (e.g. download the tarball
+and upload to a S3 bucket).
 
 ```
-# local_backup.sh
+#!/bin/bash
+# backup.sh
 
-# This call is needed to "wake-up" your machine if stopped
+# Need to start container in fly.io if it was stopped by inactivity
 curl -s -o /dev/null https://your-app.fly.dev/
 
-# Execute the script that will generate a tarball of /data/ directory
-fly ssh console -C 'sh remote_backup.sh' -t $FLY_SSH_TOKEN
-
-# Copy the generated tarball to our local machine
-fly ssh sftp get "/root/data_content_$(date +%F).tar.gz" -t $FLY_SSH_TOKEN
+filename="data_backup_$(date +%F).tar.gz"
+fly ssh console -C 'tar cvz /data' -t $FLY_SSH_TOKEN > $filename
 ```
-
-```
-# remote_backup.sh
-
-tar czf "/root/data_content_$(date +%F).tar.gz" data/
-```
-
-You need to send `remote_backup.sh` to your Fly Machine. Adding the following line to your `Dockerfile` should be enough:
-
-```
-COPY remote_backup.sh /remote_backup.sh
-```
-
-Deploy your application again, and you can run `local_backup.sh`.
 
 ## Run it periodically
 
-Now you can add `local_backup.sh` to your `crontab` schedule, or even adapt the procedure described here
+Now you can add `backup.sh` to your `crontab` schedule, or even adapt the procedure described here
 to be executed in other environments, like defining a GitHub Action or another way to schedule jobs.
 
 I know this is not the most complete way to implement a backup policy, but it is working for my current projects.

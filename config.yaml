@@ -26,8 +26,9 @@ params:
 
   # Comments settings
   comments:
-    enabled: false
-    provider: giscus
+    enabled: true
+    provider: email
+    commentsEmail: "blog@rennerocha.com"
 
 menu:
   header:

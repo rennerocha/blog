@@ -27,8 +27,9 @@ params:
   # Comments settings
   comments:
     enabled: true
-    provider: email
+    provider: mastodon
     commentsEmail: "blog@rennerocha.com"
+
 
 menu:
   header:

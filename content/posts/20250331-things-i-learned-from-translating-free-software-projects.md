@@ -3,6 +3,8 @@ title: "Things I learned from translating free software projects"
 date: 2025-03-31
 tags: ["free software", "translation", "i18n"]
 slug: things-i-learned-from-translating-free-software-projects
+params:
+    mastodon_id: 114502010539217500
 ---
 
 Everyone who wants to start contributing to free software projects struggles to know how to start. There are different paths you can follow to get involved in a community. Smaller projects are easier to start with, but some will require technical knowledge that you don't have yet. Other projects may be more welcoming to new contributors but will require you to learn how the community works and its culture.

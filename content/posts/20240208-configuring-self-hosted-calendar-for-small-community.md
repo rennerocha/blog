@@ -3,6 +3,8 @@ title: "Configuring a self-hosted calendar for your small community"
 date: 2024-02-08
 tags: ["gancio", "fediverse", "calendar", "self-host"]
 slug: configuring-self-hosted-calendar-for-small-community
+params:
+  mastodon_id: 114503452745400601
 ---
 
 I am one of the co-founders of [Laboratório Hacker de Campinas](https://lhc.net.br) (LHC), one of the first hackerspaces in Brazil and during more than a decade we always struggled how to publish and publicize our events.

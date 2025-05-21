@@ -23,17 +23,63 @@ I am the maintainer of the following open source projects:
 
 - [DojoPuzzles](https://dojopuzzles.com) is a page that helps participants of [Coding Dojo](https://codingdojo.org/practices/WhatIsCodingDojo/) sessions to choose a suitable problem to be solved. I created this project many years ago, when I organized these sessions. There are not many updates since them, but it is still very used in Brazilian community.
 
+## Contact
+
+You can find me on [Linkedin](https://www.linkedin.com/in/rennerocha/) or on my Fediverse accounts: [@rennerocha@chaos.social](https://chaos.social/@rennerocha) (English mainly) and [@renne@rocha.social](https://go.rocha.social/@renne/) (Portuguese mainly).
+
 ## Events
 
 I have plans to attend the following events in the coming months. If you want to invite me for a beer, I might accept the invitation 🙂
 
-| | When | Where | What |
-| - | - | - | - |
-| ![São Paulo Flag](sao-paulo-flag.png) | May, 16-17 | _São Paulo-SP, Brazil_ | [CryptoRave 2025](https://2025.cryptorave.org/) |
-| ![São Paulo Flag](sao-paulo-flag.png) | May, 17-18 | _São Paulo-SP, Brazil_ | [Security BSides](https://securitybsides.com.br/2025/) |
-| ![Ribeirão Preto Flag](ribeirao-preto-flag.png) | June, 17-22 | _Ribeirão Preto-SP, Brazil_ | [Caipyra 2025](https://2025.caipyra.python.org.br/) |
-| ![São Paulo Flag](sao-paulo-flag.png) | October, 21-27 | _São Paulo-SP, Brazil_ | [Python Brasil 2025](https://2025.pythonbrasil.org.br/) |
+<table>
+  <tr>
+    <td></td>
+    <td>When</td>
+    <td>Where</td>
+    <td>What</td>
+    <td>Speaking?</td>
+  </tr>
+  <tr>
+    <td><img src="/ribeirao-preto-flag.png" /></td>
+    <td>June, 19-22</td>
+    <td>Ribeirão Preto-SP, Brazil</td>
+    <td><a href="https://2025.caipyra.python.org.br/">Caipyra 2025</a></td>
+    <td><a href="https://talks.python.org.br/caipyra-2025/talk/BCVC7S/">Yes</a></td>
+  </tr>
+  <tr>
+    <td><img src="/campinas-flag.png" /></td>
+    <td>October, 18</td>
+    <td>Campinas-SP, Brazil</td>
+    <td><a href="https://devopsdays.org/events/2025-campinas/welcome/">DevOpsDays Campinas 2025</a></td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td><img src="/sao-paulo-flag.png" /></td>
+    <td>October, 21-27</td>
+    <td>São Paulo-SP, Brazil</td>
+    <td><a href="https://2025.pythonbrasil.org.br/">PythonBrasil 2025</a></td>
+    <td>?</td>
+  </tr>
+</table>
 
-## Contact
+## Past Events
 
-You can find me on [Linkedin](https://www.linkedin.com/in/rennerocha/) or on my Fediverse accounts: [@rennerocha@chaos.social](https://chaos.social/@rennerocha) (English mainly) and [@renne@rocha.social](https://go.rocha.social/@renne/) (Portuguese mainly).
+Events that I attended **and** presented something (a talk, a tutorial, etc.).
+
+<table>
+  <tr>
+    <td></td>
+    <td>When</td>
+    <td>Where</td>
+    <td>What</td>
+  </tr>
+  <tr>
+    <td><img src="/sao-paulo-flag.png" /></td>
+    <td>May, 16-17</td>
+    <td>São Paulo-SP, Brazil</td>
+    <td><a href="https://2025.cryptorave.org/">CryptoRave 2025</a></td>
+  </tr>
+  <tr>
+    <td colspan="4"><strong>Talk:</strong> <a href="https://cpa.cryptorave.org/cryptorave-2025/talk/LQ9VBG/">Sem Janelas Quebradas: Mantendo Seu Ambiente Organizado</a> <a href="https://git.rocha.dev.br/rennerocha/talk-cryptorave-2025">[slides]</a></td>
+  </tr>
+</table>

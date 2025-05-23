@@ -3,6 +3,8 @@ title: "Finding a job with web scraping"
 date: 2025-02-07
 tags: ["web scraping", "scrapy", "playwright"]
 slug: finding-a-job-with-web-scraping
+params:
+  mastodon_id: 114557079957825421
 ---
 
 A few months ago I was looking for a new job. This means spending hours browsing LinkedIn and/or job boards and drowning into outdated ads or positions that weren't looking for someone with my skills.

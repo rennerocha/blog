@@ -47,6 +47,9 @@ I have plans to attend the following events in the coming months. If you want to
     <td><a href="https://talks.python.org.br/caipyra-2025/talk/BCVC7S/">Yes</a></td>
   </tr>
   <tr>
+    <td colspan="5"><strong>Talk:</strong> <a href="https://talks.python.org.br/caipyra-2025/talk/BCVC7S/">Scrapy além do tutorial</a></td>
+  </tr>
+  <tr>
     <td><img src="/campinas-flag.png" /></td>
     <td>October, 18</td>
     <td>Campinas-SP, Brazil</td>

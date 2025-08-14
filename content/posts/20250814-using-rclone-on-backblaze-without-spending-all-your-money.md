@@ -25,14 +25,14 @@ I configured [crontab](https://www.man7.org/linux/man-pages/man5/crontab.5.html)
 
 We interact with Backblaze using API calls to manage our storage, so we can upload and download files, get information about them and the buckets, and many other actions. Each call is grouped in a different class of transaction (A, B and C), and they are [charged](https://www.backblaze.com/cloud-storage/transaction-pricing) differently. Class A transactions are always free, but Class B and C transactions have a daily limit of 2,500 calls each and they charge for extra calls.
 
-When rclone executes, it gets information from the remote location about the files already there to decide if the local files need to be uploaded or not. This is done by the Class C API call `[b2_list_file_names](
- https://www.backblaze.com/apidocs/b2-list-file-names)` that returns a list of filenames in chunks of 1.000 files each call.
+When rclone executes, it gets information from the remote location about the files already there to decide if the local files need to be uploaded or not. This is done by the Class C API call [`b2_list_file_names`](
+ https://www.backblaze.com/apidocs/b2-list-file-names) that returns a list of filenames in chunks of 1.000 files each call.
 
 But when we have our files in nested directories, a call is made for each of them. Immich organizes the uploaded files in hundreds of nested directories, and because of that, every time my cron was executed, thousands of `b2_list_file_names` calls were made. Given that I was running it hourly, I reached 17M calls in a month easily (around 500k a day). As I have only 2.5K free calls, I found the reason of the amount I was charged.
 
 ![Immich nested directories](immich-nested-directories.png)
 
-The solution is to add `[--fast-list](https://rclone.org/docs/#fast-list)` parameter to the rclone command, that requires fewer transactions for highly recursive operations as we have in this scenario. This parameter [is mentioned](https://rclone.org/b2/) in rclone documentation that explains how to setup it with Backblaze, but I didn't consider that this is basically a mandatory parameter based on how things are charged there!
+The solution is to add [`--fast-list`](https://rclone.org/docs/#fast-list) parameter to the rclone command, that requires fewer transactions for highly recursive operations as we have in this scenario. This parameter [is mentioned](https://rclone.org/b2/) in rclone documentation that explains how to setup it with Backblaze, but I didn't consider that this is basically a mandatory parameter based on how things are charged there!
 
 So I updated my rclone command to:
 

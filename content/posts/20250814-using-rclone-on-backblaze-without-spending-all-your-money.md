@@ -3,6 +3,8 @@ title: "Using rclone on Backblaze without spending all your money"
 date: 2025-08-14
 tags: ["self-host", "backblaze", "backup", "rclone"]
 slug: using-rclone-on-backblaze-without-spending-all-your-money
+params:
+  mastodon_id: 115027117767865877
 ---
 
 [Backblaze](https://www.backblaze.com/) is an object storage company that offers a S3 compatible cloud object storage with very competitive prices. With prices starting at USD6 / TB / month (or less, as you pay proportionally to the amount of data stored), it was a perfect choice to store live data and backups of my projects and self-hosted services.

@@ -44,12 +44,11 @@ I have plans to attend the following events in the coming months. If you want to
     <td>October, 18</td>
     <td>Campinas-SP, Brazil</td>
     <td><a href="https://devopsdays.org/events/2025-campinas/welcome/">DevOpsDays Campinas 2025</a></td>
-    <td>-</td>
+    <td>Organizer</td>
   </tr>
   <tr>
     <td><img src="/sao-paulo-flag.png" /></td>
     <td>October, 21-27</td>
-    <td>Ribeirão Preto-SP, Brazil</td>
     <td>São Paulo-SP, Brazil</td>
     <td><a href="https://2025.pythonbrasil.org.br/">PythonBrasil 2025</a></td>
     <td><a href="https://talks.python.org.br/pythonbrasil-2025/talk/ATYPZC/">Yes</a></td>

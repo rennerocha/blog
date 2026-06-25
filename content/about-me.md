@@ -23,6 +23,8 @@ I am the maintainer of the following open source projects:
 
 - [DojoPuzzles](https://dojopuzzles.com) is a page that helps participants of [Coding Dojo](https://codingdojo.org/practices/WhatIsCodingDojo/) sessions to choose a suitable problem to be solved. I created this project many years ago, when I organized these sessions. There are not many updates since them, but it is still very used in Brazilian community.
 
+- [The Book](https://forja.lhc.net.br/LHC/thebook/) is an administrative application used to manage finances and memberships of [Laboratório Hacker de Campinas](https://lhc.net.br/) (my hackerspace).
+
 ## Contact
 
 You can find me on [Linkedin](https://www.linkedin.com/in/rennerocha/) or on my Fediverse accounts: [@rennerocha@chaos.social](https://chaos.social/@rennerocha) (English mainly) and [@renne@rocha.social](https://go.rocha.social/@renne/) (Portuguese mainly).

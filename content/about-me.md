@@ -25,6 +25,8 @@ I am the maintainer of the following open source projects:
 
 - [The Book](https://forja.lhc.net.br/LHC/thebook/) is an administrative application used to manage finances and memberships of [Laboratório Hacker de Campinas](https://lhc.net.br/) (my hackerspace).
 
+- [pretix-pix-openpix](https://github.com/lhc/pretix-pix-openpix) is a plugin for [pretix](https://pretix.eu/) - a platform for managing events ticketing - to allow the use of Brazilian Pix payment method integrated with an OpenPix account.
+
 ## Contact
 
 You can find me on [Linkedin](https://www.linkedin.com/in/rennerocha/) or on my Fediverse accounts: [@rennerocha@chaos.social](https://chaos.social/@rennerocha) (English mainly) and [@renne@rocha.social](https://go.rocha.social/@renne/) (Portuguese mainly).

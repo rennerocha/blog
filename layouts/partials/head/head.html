@@ -39,6 +39,9 @@
 
     {{ partial "post-meta.html" . }}
 
+    {{ with .OutputFormats.Get "rss" }}
+    {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+    {{ end }}
     <link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}" />
     {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">

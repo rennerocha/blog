@@ -1,12 +1,14 @@
 baseurl: "https://rennerocha.com/"
-languageCode: "pt-br"
+languageCode: "en"
 title: "Renne Rocha"
 theme: "hugo-tania"
 pagination:
   pagerSize: 6
 
 params:
-  author: "Renne Rocha"
+  author:
+    name: "Renne Rocha"
+    email: "blog@rocha.dev.br"
   siteName: "Sharing what I learn about software development mainly"
   siteDesc: "Sharing what I learn about software development mainly"
 
@@ -60,4 +62,7 @@ markup:
       unsafe: true
 
 outputs:
-  home: ["HTML", "RSS", "JSON"]
+  home:
+  - html
+  - rss
+  - json

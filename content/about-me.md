@@ -40,28 +40,11 @@ I have plans to attend the following events in the coming months. If you want to
     <td>Speaking?</td>
   </tr>
   <tr>
-    <td><img src="/campinas-flag.png" /></td>
-    <td>October, 18</td>
-    <td>Campinas-SP, Brazil</td>
-    <td><a href="https://devopsdays.org/events/2025-campinas/welcome/">DevOpsDays Campinas 2025</a></td>
-    <td>Organizer</td>
-  </tr>
-  <tr>
-    <td><img src="/sao-paulo-flag.png" /></td>
-    <td>October, 21-27</td>
-    <td>São Paulo-SP, Brazil</td>
-    <td><a href="https://2025.pythonbrasil.org.br/">PythonBrasil 2025</a></td>
-    <td><a href="https://talks.python.org.br/pythonbrasil-2025/talk/ATYPZC/">Yes</a></td>
-  </tr>
-  <tr>
-    <td colspan="5"><strong>Talk:</strong> <a href="https://talks.python.org.br/pythonbrasil-2025/talk/ATYPZC/">Por que comunidades locais (e presenciais) são importantes</a></td>
-  </tr>
-  <tr>
-    <td><img src="/sao-paulo-flag.png" /></td>
-    <td>November, 29-30</td>
-    <td>São Paulo-SP, Brazil</td>
-    <td><a href="https://gambiconf.dev//">GambiConf - The Blow Your Mind Conference</a></td>
-    <td>No</td>
+    <td><img src="/florianopolis-flag.png" /></td>
+    <td>October, 14-19</td>
+    <td>Florianópolis-SC, Brazil</td>
+    <td><a href="https://2026.pythonbrasil.org.br/">Python Brasil 2026</a></td>
+    <td>?</td>
   </tr>
 </table>
 
@@ -77,22 +60,39 @@ Events that I attended **and** presented something (a talk, a tutorial, etc.).
     <td>What</td>
   </tr>
   <tr>
+    <td><img src="/sao-carlos-flag.png" /></td>
+    <td>2026, June, 4-7</td>
+    <td>São Carlos-SP, Brazil</td>
+    <td><a href="https://2026.caipyra.python.org.br/">Caipyra 2026</a></td>
+  </tr>
+  <tr>
+    <td colspan="5"><strong>Talk:</strong> <a href="https://talks.python.org.br/caipyra-2026/talk/8ELYMS/">Django aos 20: velho demais ou maduro o suficiente?</a> <a href="https://git.rocha.dev.br/rennerocha/caipyra-2026-django-aos-20/src/branch/main/slides.pdf">[slides]</a></td>
+  </tr>
+  <tr>
     <td><img src="/sao-paulo-flag.png" /></td>
-    <td>May, 16-17</td>
+    <td>2025, October, 21-27</td>
+    <td>São Paulo-SP, Brazil</td>
+    <td><a href="https://2025.pythonbrasil.org.br/">PythonBrasil 2025</a></td>
+  </tr>
+  <tr>
+    <td colspan="5"><strong>Talk:</strong> <a href="https://talks.python.org.br/pythonbrasil-2025/talk/ATYPZC/">Por que comunidades locais (e presenciais) são importantes</a> <a href="https://git.rocha.dev.br/rennerocha/pybr2025-por-que-comunidades-locais-e-presenciais-sao-importantes">[slides]</a></td>
+  </tr>
+  <tr>
+    <td><img src="/ribeirao-preto-flag.png" /></td>
+    <td>2025, June, 19-22</td>
+    <td>Ribeirão Preto-SP, Brazil</td>
+    <td><a href="https://2025.caipyra.python.org.br/">Caipyra 2025</a></td>
+  </tr>
+  <tr>
+    <td colspan="5"><strong>Talk:</strong> <a href="https://talks.python.org.br/caipyra-2025/talk/BCVC7S/">Scrapy além do tutorial</a> <a href="https://git.rocha.dev.br/rennerocha/talk-caipyra-2025">[slides]</a></td>
+  </tr>
+  <tr>
+    <td><img src="/sao-paulo-flag.png" /></td>
+    <td>2025, May, 16-17</td>
     <td>São Paulo-SP, Brazil</td>
     <td><a href="https://2025.cryptorave.org/">CryptoRave 2025</a></td>
   </tr>
   <tr>
     <td colspan="4"><strong>Talk:</strong> <a href="https://cpa.cryptorave.org/cryptorave-2025/talk/LQ9VBG/">Sem Janelas Quebradas: Mantendo Seu Ambiente Organizado</a> <a href="https://git.rocha.dev.br/rennerocha/talk-cryptorave-2025">[slides]</a></td>
-  </tr>
-  <tr>
-    <td><img src="/ribeirao-preto-flag.png" /></td>
-    <td>June, 19-22</td>
-    <td>Ribeirão Preto-SP, Brazil</td>
-    <td><a href="https://2025.caipyra.python.org.br/">Caipyra 2025</a></td>
-    <td><a href="https://talks.python.org.br/caipyra-2025/talk/BCVC7S/">Yes</a></td>
-  </tr>
-  <tr>
-    <td colspan="5"><strong>Talk:</strong> <a href="https://talks.python.org.br/caipyra-2025/talk/BCVC7S/">Scrapy além do tutorial</a></td>
   </tr>
 </table>

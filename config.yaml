@@ -30,7 +30,6 @@ params:
     provider: mastodon
     commentsEmail: "blog@rennerocha.com"
 
-
 menu:
   header:
     - name: About Me
@@ -43,17 +42,19 @@ menu:
 
 markup:
   highlight:
-    noClasses: false
-    lineNos: true
+    anchorLineNos: false
     codeFences: true
     guessSyntax: false
     hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
     lineNoStart: 1
-    lineNos: false
+    lineNos: true
     lineNumbersInTable: true
     noClasses: true
-    style: "monokai"
+    style: monokai
     tabWidth: 4
+    wrapperClass: highlight
   goldmark:
     renderer:
       unsafe: true

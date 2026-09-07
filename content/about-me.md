@@ -3,7 +3,7 @@ title: About Me
 date: "2023-09-19"
 ---
 
-I live in [Jundiaí, SP, Brazil](https://www.openstreetmap.org/#map=13/-23.1964/-46.8778) with my wife and four cats. I have a degree in [Electrical Engineering](https://www.fee.unicamp.br/) by [UNICAMP](https://www.unicamp.br/unicamp/) and I have been working as a software engineer for more than 10 years, mainly using [Python](https://www.python.org/) for **web projects** and **web scraping**.
+I live in [Jundiaí, SP, Brazil](https://www.openstreetmap.org/#map=13/-23.1964/-46.8778) with my wife and four cats. I have a degree in [Electrical Engineering](https://www.fee.unicamp.br/) by [UNICAMP](https://www.unicamp.br/unicamp/) and I have been working as a software engineer for more than 13 years, mainly using [Python](https://www.python.org/) for **web projects** and **web scraping**.
 
 I am also the co-founder of [Laboratório Hacker de Campinas](https://lhc.net.br), a hackerspace in [Campinas, SP, Brazil](https://www.openstreetmap.org/#map=13/-22.9206/-47.0608).
 
@@ -48,7 +48,7 @@ I have plans to attend the following events in the coming months. If you want to
     <td>October, 14-19</td>
     <td>Florianópolis-SC, Brazil</td>
     <td><a href="https://2026.pythonbrasil.org.br/">Python Brasil 2026</a></td>
-    <td>?</td>
+    <td><a href="https://talks.python.org.br/pybr26/talk/KQWZ7V/">Yes</a></td>
   </tr>
 </table>
 

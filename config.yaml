@@ -1,5 +1,5 @@
 baseurl: "https://rennerocha.com/"
-languageCode: "en"
+locale: "en-US"
 title: "Renne Rocha"
 theme: "hugo-tania"
 pagination:

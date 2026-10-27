@@ -383,7 +383,7 @@ can use the fact that `coalesce()` function can receive virtually any number or 
 It starts evaluating the arguments from left to right and stops at the first non-NULL argument. We
 can try different regular expressions in order, and return a default value if none match the string.
 
-```
+```sql
 SELECT
   coalesce(
     substring(
